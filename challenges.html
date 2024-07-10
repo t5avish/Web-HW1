@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fitness Challenges</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+</head>
+<body class="bg-gray-100">
+    <!-- Navigation Bar -->
+    <nav class="bg-gray-800 p-4">
+        <div class="container mx-auto flex justify-between items-center">
+            <a href="index.html" class="text-white text-2xl font-bold">Fitness App</a>
+            <div class="space-x-4">
+                <a href="index.html#home" class="text-gray-300 hover:text-white">Home</a>
+                <a href="challenges.html" class="text-gray-300 hover:text-white">Challenges</a>
+                <a href="profile.html" class="text-gray-300 hover:text-white">Profile</a>
+                <a href="chat.html" class="text-gray-300 hover:text-white">Chat</a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Challenges Section -->
+    <section id="challenges" class="container mx-auto mt-8 p-4">
+        <h2 class="text-3xl font-bold text-gray-800 text-center mb-8">Fitness Challenges</h2>
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+            <!-- Existing Challenges -->
+            <!-- Challenge 1 -->
+            <div class="bg-white p-6 rounded-lg shadow-lg">
+                <h3 class="text-xl font-bold text-gray-800 mb-2">10,000 Steps a Day</h3>
+                <p class="text-gray-600 mb-4">Challenge yourself to walk 10,000 steps every day. Track your steps and see your progress over time.</p>
+                <button class="px-4 py-2 bg-blue-500 text-white rounded hover:bg-blue-700">Join Challenge</button>
+            </div>
+            <!-- Challenge 2 -->
+            <div class="bg-white p-6 rounded-lg shadow-lg">
+                <h3 class="text-xl font-bold text-gray-800 mb-2">30-Day HIIT Workout</h3>
+                <p class="text-gray-600 mb-4">Engage in high-intensity interval training for 30 days. Each day features a different workout to keep you motivated.</p>
+                <button class="px-4 py-2 bg-blue-500 text-white rounded hover:bg-blue-700">Join Challenge</button>
+            </div>
+            <!-- Challenge 3 -->
+            <div class="bg-white p-6 rounded-lg shadow-lg">
+                <h3 class="text-xl font-bold text-gray-800 mb-2">Yoga for Flexibility</h3>
+                <p class="text-gray-600 mb-4">Improve your flexibility with a 30-day yoga challenge. Each session focuses on different poses to help you stretch and relax.</p>
+                <button class="px-4 py-2 bg-blue-500 text-white rounded hover:bg-blue-700">Join Challenge</button>
+            </div>
+            <!-- Challenge 4 -->
+            <div class="bg-white p-6 rounded-lg shadow-lg">
+                <h3 class="text-xl font-bold text-gray-800 mb-2">5K Running Challenge</h3>
+                <p class="text-gray-600 mb-4">Train to run a 5K with this progressive challenge. Each week you'll build your endurance and strength.</p>
+                <button class="px-4 py-2 bg-blue-500 text-white rounded hover:bg-blue-700">Join Challenge</button>
+            </div>
+            <!-- Challenge 5 -->
+            <div class="bg-white p-6 rounded-lg shadow-lg">
+                <h3 class="text-xl font-bold text-gray-800 mb-2">Healthy Eating Challenge</h3>
+                <p class="text-gray-600 mb-4">Commit to healthy eating habits for 30 days. Receive daily tips and recipes to help you stay on track.</p>
+                <button class="px-4 py-2 bg-blue-500 text-white rounded hover:bg-blue-700">Join Challenge</button>
+            </div>
+            <!-- Challenge 6 -->
+            <div class="bg-white p-6 rounded-lg shadow-lg">
+                <h3 class="text-xl font-bold text-gray-800 mb-2">Strength Training</h3>
+                <p class="text-gray-600 mb-4">Build muscle and strength with this 6-week strength training challenge. Follow the plan and track your progress.</p>
+                <button class="px-4 py-2 bg-blue-500 text-white rounded hover:bg-blue-700">Join Challenge</button>
+            </div>
+            <!-- Additional Fake Challenges -->
+            <!-- Challenge 7 -->
+            <div class="bg-white p-6 rounded-lg shadow-lg">
+                <h3 class="text-xl font-bold text-gray-800 mb-2">Daily Meditation</h3>
+                <p class="text-gray-600 mb-4">Practice daily meditation for mindfulness and stress relief. Find inner peace and improve mental clarity.</p>
+                <button class="px-4 py-2 bg-blue-500 text-white rounded hover:bg-blue-700">Join Challenge</button>
+            </div>
+            <!-- Challenge 8 -->
+            <div class="bg-white p-6 rounded-lg shadow-lg">
+                <h3 class="text-xl font-bold text-gray-800 mb-2">Weekly Swimming Challenge</h3>
+                <p class="text-gray-600 mb-4">Swim laps every week to improve cardiovascular fitness and endurance. Track your progress in the pool!</p>
+                <button class="px-4 py-2 bg-blue-500 text-white rounded hover:bg-blue-700">Join Challenge</button>
+            </div>
+            <!-- Challenge 9 -->
+            <div class="bg-white p-6 rounded-lg shadow-lg">
+                <h3 class="text-xl font-bold text-gray-800 mb-2">Flexibility Fridays</h3>
+                <p class="text-gray-600 mb-4">Dedicate Fridays to improving flexibility with a variety of stretching exercises. Start the weekend feeling limber!</p>
+                <button class="px-4 py-2 bg-blue-500 text-white rounded hover:bg-blue-700">Join Challenge</button>
+            </div>
+        </div>
+
+        <!-- Add New Challenge Button -->
+        <div class="text-center mt-12">
+            <h3 class="text-2xl font-bold text-gray-800 mb-4">Want to add a new challenge?</h3>
+            <button id="addNewChallengeButton" class="px-4 py-2 bg-gray-800 text-white rounded hover:bg-gray-900">Add New Challenge</button>
+        </div>
+    </section> 
+</body>
+</html>

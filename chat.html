@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fitness App Chat</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <style>
+        /* Custom styles */
+        .message-container {
+            max-width: 600px; /* Limit chat width */
+            margin: 0 auto; /* Center align chat */
+        }
+        .message {
+            margin-bottom: 10px;
+        }
+        .message .name {
+            font-weight: 600;
+            margin-right: 5px;
+        }
+        .message .challenge {
+            font-weight: 600;
+            margin-right: 5px;
+        }
+        .blue {
+            color: #3B82F6; /* Blue color for Fitness Challenge */
+        }
+        .green {
+            color: #10B981; /* Green color for Running Challenge */
+        }
+        .red {
+            color: #EF4444; /* Red color for Weightlifting Challenge */
+        }
+    </style>
+</head>
+<body class="bg-gray-100">
+    <!-- Navigation Bar -->
+    <nav class="bg-gray-800 p-4">
+        <div class="container mx-auto flex justify-between items-center">
+            <a href="#" class="text-white text-2xl font-bold">Fitness App</a>
+            <div class="space-x-4">
+                <a href="index.html" class="text-gray-300 hover:text-white">Home</a>
+                <a href="challenges.html" class="text-gray-300 hover:text-white">Challenges</a>
+                <a href="profile.html" class="text-gray-300 hover:text-white">Profile</a>
+                <a href="#" class="text-gray-300 hover:text-white">Chat</a> <!-- Current page, no link -->
+            </div>
+        </div>
+    </nav>
+
+    <!-- Chat Messages Container -->
+    <section class="container mx-auto mt-8 p-4 message-container">
+        <h1 class="text-3xl font-bold text-gray-800 mb-4 text-center">Fitness App Chat</h1>
+
+        <!-- Chat Messages -->
+        <div class="bg-white p-4 rounded-lg shadow mb-4">
+            <!-- Example messages -->
+            <div class="message mb-2">
+                <span class="name blue">Avishay Halifa</span>
+                <span class="challenge blue">[Fitness Challenge]:</span>
+                <span>Hello everyone!</span>
+            </div>
+            <div class="message mb-2">
+                <span class="name green">Omer Fatal</span>
+                <span class="challenge green">[Running Challenge]:</span>
+                <span>Anyone up for a morning run tomorrow?</span>
+            </div>
+            <div class="message mb-2">
+                <span class="name red">Tamir Nahari</span>
+                <span class="challenge red">[Weightlifting Challenge]:</span>
+                <span>Just finished a great workout session!</span>
+            </div>
+            <!-- Additional messages -->
+            <div class="message mb-2">
+                <span class="name blue">Kfir Sharoni</span>
+                <span class="challenge blue">[Fitness Challenge]:</span>
+                <span>Who's joining the yoga session this evening?</span>
+            </div>
+            <div class="message mb-2">
+                <span class="name green">Cristiano Ronaldo</span>
+                <span class="challenge green">[Running Challenge]:</span>
+                <span>Completed my 5K run today!</span>
+            </div>
+            <div class="message mb-2">
+                <span class="name red">Lebron James</span>
+                <span class="challenge red">[Weightlifting Challenge]:</span>
+                <span>Looking for tips to improve my deadlift technique.</span>
+            </div>
+            <!-- Add more messages as needed -->
+        </div>
+
+        <!-- New Message Input -->
+        <div class="flex items-center">
+            <input type="text" id="newMessageInput" placeholder="Type your message..." class="flex-1 bg-gray-200 rounded-full py-2 px-4 focus:outline-none focus:bg-white shadow-inner">
+            <!-- Optional: Button to add new message (no functionality) -->
+            <!-- <button onclick="addNewMessage()" class="ml-2 bg-blue-500 hover:bg-blue-600 text-white rounded-full py-2 px-4 focus:outline-none">Send</button> -->
+        </div>
+    </section>
+</body>
+</html>
