@@ -8,8 +8,8 @@
     <style>
         /* Custom styles */
         .message-container {
-            max-width: 600px; /* Limit chat width */
-            margin: 0 auto; /* Center align chat */
+            max-width: 600px;
+            margin: 0 auto; 
         }
         .message {
             margin-bottom: 10px;
@@ -23,13 +23,13 @@
             margin-right: 5px;
         }
         .blue {
-            color: #3B82F6; /* Blue color for Fitness Challenge */
+            color: #3B82F6;
         }
         .green {
-            color: #10B981; /* Green color for Running Challenge */
+            color: #10B981;
         }
         .red {
-            color: #EF4444; /* Red color for Weightlifting Challenge */
+            color: #EF4444;
         }
     </style>
 </head>
@@ -51,9 +51,7 @@
     <section class="container mx-auto mt-8 p-4 message-container">
         <h1 class="text-3xl font-bold text-gray-800 mb-4 text-center">Fitness App Chat</h1>
 
-        <!-- Chat Messages -->
         <div class="bg-white p-4 rounded-lg shadow mb-4">
-            <!-- Example messages -->
             <div class="message mb-2">
                 <span class="name blue">Avishay Halifa</span>
                 <span class="challenge blue">[Fitness Challenge]:</span>
@@ -69,7 +67,6 @@
                 <span class="challenge red">[Weightlifting Challenge]:</span>
                 <span>Just finished a great workout session!</span>
             </div>
-            <!-- Additional messages -->
             <div class="message mb-2">
                 <span class="name blue">Kfir Sharoni</span>
                 <span class="challenge blue">[Fitness Challenge]:</span>
@@ -85,14 +82,11 @@
                 <span class="challenge red">[Weightlifting Challenge]:</span>
                 <span>Looking for tips to improve my deadlift technique.</span>
             </div>
-            <!-- Add more messages as needed -->
         </div>
 
         <!-- New Message Input -->
         <div class="flex items-center">
             <input type="text" id="newMessageInput" placeholder="Type your message..." class="flex-1 bg-gray-200 rounded-full py-2 px-4 focus:outline-none focus:bg-white shadow-inner">
-            <!-- Optional: Button to add new message (no functionality) -->
-            <!-- <button onclick="addNewMessage()" class="ml-2 bg-blue-500 hover:bg-blue-600 text-white rounded-full py-2 px-4 focus:outline-none">Send</button> -->
         </div>
     </section>
 </body>
